@@ -1,0 +1,64 @@
+# Project info
+site_name: Knowledge Base
+site_description: The official website for CETI KB
+site_author: CETI
+site_url: https://taoceti.ai/
+
+copyright: Copyright &copy; 2024 CETI AI
+
+# Configuration
+theme:
+  name: material
+  logo: stylesheets/ceti.png
+  favicon: stylesheets/ceti.png
+  palette:
+    scheme: slate
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - navigation.tabs
+
+extra_css:
+    - stylesheets/extra.css
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our blog and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our blog better.
+
+plugins:
+  - search
+
+  # Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: ↑
+
+# Navigation
+nav:
+  - About CETI: index.md
+  - Litepaper: 
+    - Overview: litepaper.md
+    - Tokenomics: tokenomics.md
+  - FAQs: FAQs.md
+
+
+
+
+

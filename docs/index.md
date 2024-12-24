@@ -1,0 +1,3 @@
+# CETI
+
+At CETI AI, our mission is to accelerate the advancement of decentralized artificial intelligence. In pursuit of this goal, we build globally distributed, high-performance, scalable decentralized AI infrastructure for developers and decentralized AI networks that enables them to rapidly outpace the capabilities and reach of centralized AI. Through partnership and technical innovation we are committed to improving the accessibility of AI, the efficiency of AI infrastructure, and contributing to the growth of a more decentralized and diverse AI ecosystem.
