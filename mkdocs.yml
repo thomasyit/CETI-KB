@@ -22,10 +22,18 @@ theme:
     - navigation.footer
     - navigation.tabs
 
+# Repository
+repo_name: CETI-KB
+repo_url: https://github.com/thomasyit/CETI-KB
+
+
 extra_css:
     - stylesheets/extra.css
 
 extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/thomasyit
   consent:
     title: Cookie consent
     description: >- 
